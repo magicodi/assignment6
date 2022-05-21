@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 13%;
+}
+
+nav{
+    position: absolute;
+    left: 0;
+    top: 2px;
+    right: 0;
+    background-color: #fff;
+    padding: 0 3em;
+    border-bottom: 1px solid black;
+}
+/*nav a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+*/
+li:last-child {
+    border-right: none;
+  }
+   
+  li a {
+    text-decoration: none;
+    color: #ccc;
+    font: 25px/1 Helvetica, Verdana, sans-serif;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+   
+  li a:hover {
+    color: #000;
+    
+  }
+   
+  li.active a {
+    font-weight: bold;
+    color: #333;
+  }
+
+nav img{
+    width: 8%;
+    float: left;
+    padding: 40px;
+    margin-top: 10px;
+}
+
+nav ul{
+    float: right;
+    margin-top: 3%;
+    padding: 30px;
+    font-size: 20px;
+    overflow: auto;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 1px solid #aaa;
+    padding: 0 20px;
+}
+.main-container {
+	max-width: 100%;
+    padding: 2em 3em;
+    box-shadow: 10px 10px 5px #888888;
+    overflow: auto;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+/*.main-container aside, .main-container main{
+    float: left;
+	
+}
+
+
+aside{
+    width: 35%;
+}
+aside section{
+    background-color: #f4f4f4;
+    box-shadow: 3px 4px 7px #888888;
+    padding: 10px;
+    margin: 0 25px 25px 0;
+}*/
+
+
+main{
+    width:  100%;
+    margin: 0;
+    padding: 0;
+}
+.top{
+    margin-bottom: 30px;
+}
+main article img.hero{
+    width: 100%;
+    margin: 0;
+}
+
+.centered{
+    position: absolute;
+    float: right;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50% -50%);
+    color: coral;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: Bold;
+}
+
+.centered description{
+    position: absolute;
+    float: right;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50% -50%);
+    color: coral;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: light;
+}
+
+.imageGroup {
+	display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    color: #003556;
+}
+.imageGroup div {
+    width: 30%;
+    margin: 10px 0;
+	
+}
+.imageGroup div img {
+    width: 100%
+	
+}
+article h2{
+    font-size: 1.2em;
+    color: none;
+    padding: 3px;
+    text-align: center;
+    text-transform: uppercase;
+}
+article p a{
+    display: block;
+    color: #fff;
+    background-color: blueviolet;
+    text-align: center;
+    padding: 10px;
+}
+
+/*.projects img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    back
+    
+} */
+
+.projects h2{
+    font-size: 2.5em;
+}
+
+.project.one{
+
+    background-image: url(images/Primzy.jpg);
+    
+}
+.project.two{
+  
+    background-image: url(images/Craislist.png);
+  
+}
+
+.overlay{
+    background-color: rgba(255, 255, 255, .5);
+    position: absolute;
+    top: 500px;
+    width: 400px;
+    height: 50px;
+    overflow: hidden;
+    -webkit-transition: all 1s ease-in-out .2s ;
+    -moz-transition: all 1s ease-in-out .2s ;
+    -ms-transition: all 1s ease-in-out .2s ;
+    -o-transition: all 1s ease-in-out .2s ;
+}
+.overlay:hover{ 
+    height: 600px;
+    top: 0;
+
+}
+
+
+footer{
+    color: #fff;
+    background: #003556;
+    padding: 3px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
